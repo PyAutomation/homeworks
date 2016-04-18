@@ -5,4 +5,4 @@ def to_weird(str):
 			L[i] = L[i].upper()
 		return ''.join(L)
 	words = [helper(word) for word in str.split()]
-	return ' '.join(words)
+	return '-'.join(words)
